@@ -1,0 +1,106 @@
+{
+    "consultores": [
+      {
+        "Id_consultor": 1,
+        "id_empresa_consultora": 10,
+        "nombre_consultor": "Juan Pérez",
+        "telefono": "123-456-7890",
+        "cant_trabajos": 8,
+        "skills": ["Python", "Machine Learning", "SQL"],
+        "intereses": ["Desarrollo web", "Data Science"],
+        "certificaciones": ["Certificación Python", "Certificación Machine Learning"]
+      },
+      {
+        "Id_consultor": 2,
+        "id_empresa_consultora": 11,
+        "nombre_consultor": "María García",
+        "telefono": "987-654-3210",
+        "cant_trabajos": 6,
+        "skills": ["Java", "Spring", "Hibernate"],
+        "intereses": ["Desarrollo de aplicaciones empresariales", "Backend"],
+        "certificaciones": ["Certificación Java", "Certificación Spring"]
+      },
+      {
+        "Id_consultor": 3,
+        "id_empresa_consultora": 12,
+        "nombre_consultor": "Carlos Martínez",
+        "telefono": "555-123-4567",
+        "cant_trabajos": 10,
+        "skills": ["JavaScript", "React", "Node.js"],
+        "intereses": ["Desarrollo web", "Frontend"],
+        "certificaciones": ["Certificación JavaScript", "Certificación React"]
+      },
+      {
+        "Id_consultor": 4,
+        "id_empresa_consultora": 13,
+        "nombre_consultor": "Laura Rodríguez",
+        "telefono": "333-987-6543",
+        "cant_trabajos": 12,
+        "skills": ["C#", ".NET", "ASP.NET"],
+        "intereses": ["Desarrollo de aplicaciones empresariales", "Backend"],
+        "certificaciones": ["Certificación C#", "Certificación .NET"]
+      },
+      {
+        "Id_consultor": 5,
+        "id_empresa_consultora": 14,
+        "nombre_consultor": "Diego López",
+        "telefono": "777-111-2222",
+        "cant_trabajos": 7,
+        "skills": ["PHP", "Laravel", "MySQL"],
+        "intereses": ["Desarrollo web", "E-commerce"],
+        "certificaciones": ["Certificación PHP", "Certificación Laravel"]
+      },
+      {
+        "Id_consultor": 6,
+        "id_empresa_consultora": 15,
+        "nombre_consultor": "Ana Gómez",
+        "telefono": "999-888-7777",
+        "cant_trabajos": 9,
+        "skills": ["Python", "Django", "Flask"],
+        "intereses": ["Desarrollo web", "Web scraping"],
+        "certificaciones": ["Certificación Python", "Certificación Django"]
+      },
+      {
+        "Id_consultor": 7,
+        "id_empresa_consultora": 10,
+        "nombre_consultor": "Javier Ruiz",
+        "telefono": "666-555-4444",
+        "cant_trabajos": 5,
+        "skills": ["Java", "Spring Boot", "MongoDB"],
+        "intereses": ["Desarrollo web", "Big Data"],
+        "certificaciones": ["Certificación Java", "Certificación Spring Boot"]
+      },
+      {
+        "Id_consultor": 8,
+        "id_empresa_consultora": 11,
+        "nombre_consultor": "Sofía Fernández",
+        "telefono": "222-333-4444",
+        "cant_trabajos": 11,
+        "skills": ["JavaScript", "Vue.js", "Node.js"],
+        "intereses": ["Desarrollo web", "Frontend"],
+        "certificaciones": ["Certificación JavaScript", "Certificación Vue.js"]
+      },
+      {
+        "Id_consultor": 9,
+        "id_empresa_consultora": 12,
+        "nombre_consultor": "Pablo Pérez",
+        "telefono": "111-222-3333",
+        "cant_trabajos": 8,
+        "skills": ["Python", "TensorFlow", "Keras"],
+        "intereses": ["Inteligencia Artificial", "Machine Learning"],
+        "certificaciones": ["Certificación Python", "Certificación TensorFlow"]
+      },
+      {
+        "Id_consultor": 10,
+        "id_empresa_consultora": 13,
+        "nombre_consultor": "Carmen López",
+        "telefono": "555-666-7777",
+        "cant_trabajos": 6,
+        "skills": ["C++", "Qt", "OpenGL"],
+        "intereses": ["Desarrollo de software", "Gráficos 3D"],
+        "certificaciones": ["Certificación Python", "Certificación TensorFlow"]
+    }
+    ]
+}
+  
+  

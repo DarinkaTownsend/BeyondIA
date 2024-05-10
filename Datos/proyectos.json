@@ -1,0 +1,50 @@
+{
+    "proyectos": [
+      {
+        "Id_proyecto": 1,
+        "nombre_proyecto": "Desarrollo de aplicación móvil",
+        "tipo": "privado",
+        "descripcion": "Se necesita un consultor con experiencia en desarrollo de aplicaciones móviles para crear una aplicación de gestión de tareas para dispositivos iOS y Android.",
+        "skills": ["iOS", "Android", "Swift", "Kotlin"],
+        "requisitos": ["Experiencia previa en desarrollo de aplicaciones móviles", "Conocimiento de Swift y Kotlin"],
+        "id_postulantes": [1, 2, 3]
+      },
+      {
+        "Id_proyecto": 2,
+        "nombre_proyecto": "Diseño de interfaz de usuario",
+        "tipo": "publico",
+        "descripcion": "Se busca un consultor con habilidades de diseño gráfico y experiencia en diseño de interfaces de usuario para mejorar la usabilidad de nuestro sitio web.",
+        "skills": ["Diseño gráfico", "UI/UX", "Adobe XD", "Sketch"],
+        "requisitos": ["Experiencia previa en diseño de interfaces de usuario", "Conocimiento de herramientas de diseño como Adobe XD o Sketch"],
+        "id_postulantes": [4, 5]
+      },
+      {
+        "Id_proyecto": 3,
+        "nombre_proyecto": "Implementación de sistema de gestión de contenido",
+        "tipo": "privado",
+        "descripcion": "Necesitamos un consultor con experiencia en sistemas de gestión de contenido (CMS) para implementar un sistema que permita la administración eficiente de nuestro contenido web.",
+        "skills": ["CMS", "WordPress", "Drupal", "Joomla"],
+        "requisitos": ["Experiencia en implementación de sistemas CMS", "Conocimiento de WordPress, Drupal o Joomla"],
+        "id_postulantes": [6, 7]
+      },
+      {
+        "Id_proyecto": 4,
+        "nombre_proyecto": "Desarrollo de aplicación web de comercio electrónico",
+        "tipo": "publico",
+        "descripcion": "Estamos buscando un consultor con experiencia en desarrollo de aplicaciones web de comercio electrónico para crear una plataforma de venta en línea para nuestra empresa.",
+        "skills": ["Desarrollo web", "E-commerce", "PHP", "JavaScript"],
+        "requisitos": ["Experiencia previa en desarrollo de aplicaciones web de comercio electrónico", "Conocimiento de PHP y JavaScript"],
+        "id_postulantes": [8]
+      },
+      {
+        "Id_proyecto": 5,
+        "nombre_proyecto": "Análisis de datos para optimización de procesos",
+        "tipo": "privado",
+        "descripcion": "Se requiere un consultor con habilidades en análisis de datos y experiencia en el uso de herramientas como Python y R para analizar datos operativos y proponer mejoras en nuestros procesos internos.",
+        "skills": ["Análisis de datos", "Python", "R", "Machine Learning"],
+        "requisitos": ["Experiencia en análisis de datos", "Conocimiento de Python y R"],
+        "id_postulantes": [9, 10]
+      }
+    ]
+  }
+  

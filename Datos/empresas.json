@@ -1,0 +1,95 @@
+{
+    "empresas": [
+      {
+        "Id_empresa": 1,
+        "nombre_empresa": "Google",
+        "telefono": "123-456-7890",
+        "ranking": 1,
+        "lista_trabajadores": [1, 2],
+        "descripcion": "Empresa líder en tecnología, conocida por su motor de búsqueda y servicios en la nube.",
+        "tipo": "consultorias"
+      },
+      {
+        "Id_empresa": 2,
+        "nombre_empresa": "Apple Inc.",
+        "telefono": "987-654-3210",
+        "ranking": 2,
+        "lista_trabajadores": [3, 5],
+        "descripcion": "Empresa multinacional estadounidense que diseña y produce equipos electrónicos y software.",
+        "tipo": "clientes"
+      },
+      {
+        "Id_empresa": 3,
+        "nombre_empresa": "Amazon",
+        "telefono": "555-123-4567",
+        "ranking": 3,
+        "lista_trabajadores": [9, 8],
+        "descripcion": "Empresa de comercio electrónico y servicios de computación en la nube.",
+        "tipo": "consultorias"
+      },
+      {
+        "Id_empresa": 4,
+        "nombre_empresa": "Microsoft",
+        "telefono": "333-987-6543",
+        "ranking": 4,
+        "lista_trabajadores": [7],
+        "descripcion": "Empresa multinacional de tecnología que desarrolla, fabrica, licencia, respalda y vende software de computadora.",
+        "tipo": "clientes"
+      },
+      {
+        "Id_empresa": 5,
+        "nombre_empresa": "Facebook",
+        "telefono": "777-111-2222",
+        "ranking": 5,
+        "lista_trabajadores": [4],
+        "descripcion": "Empresa de redes sociales y servicios en línea.",
+        "tipo": "consultorias"
+      },
+      {
+        "Id_empresa": 6,
+        "nombre_empresa": "Alphabet Inc.",
+        "telefono": "999-888-7777",
+        "ranking": 6,
+        "lista_trabajadores": [6],
+        "descripcion": "Empresa matriz de Google y otras compañías.",
+        "tipo": "clientes"
+      },
+      {
+        "Id_empresa": 7,
+        "nombre_empresa": "Tesla, Inc.",
+        "telefono": "666-555-4444",
+        "ranking": 7,
+        "lista_trabajadores": [2],
+        "descripcion": "Empresa de vehículos eléctricos y energía renovable.",
+        "tipo": "consultorias"
+      },
+      {
+        "Id_empresa": 8,
+        "nombre_empresa": "Walmart",
+        "telefono": "222-333-4444",
+        "ranking": 8,
+        "lista_trabajadores": [10],
+        "descripcion": "Corporación multinacional de tiendas de descuento y almacenes.",
+        "tipo": "clientes"
+      },
+      {
+        "Id_empresa": 9,
+        "nombre_empresa": "Samsung",
+        "telefono": "111-222-3333",
+        "ranking": 9,
+        "lista_trabajadores": [8],
+        "descripcion": "Empresa multinacional surcoreana de electrónica.",
+        "tipo": "consultorias"
+      },
+      {
+        "Id_empresa": 10,
+        "nombre_empresa": "IBM",
+        "telefono": "555-666-7777",
+        "ranking": 10,
+        "lista_trabajadores": [1],
+        "descripcion": "Empresa multinacional de tecnología y consultoría.",
+        "tipo": "clientes"
+      }
+    ]
+  }
+  

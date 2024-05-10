@@ -1,0 +1,35 @@
+{
+    "postulaciones": [
+      {
+        "Id_postulacion": 1,
+        "Id_consultor": 1,
+        "video": "https://example.com/video1",
+        "keywords": []
+      },
+      {
+        "Id_postulacion": 2,
+        "Id_consultor": 2,
+        "video": "https://example.com/video2",
+        "keywords": []
+      },
+      {
+        "Id_postulacion": 3,
+        "Id_consultor": 3,
+        "video": "https://example.com/video3",
+        "keywords": []
+      },
+      {
+        "Id_postulacion": 4,
+        "Id_consultor": 4,
+        "video": "https://example.com/video4",
+        "keywords": []
+      },
+      {
+        "Id_postulacion": 5,
+        "Id_consultor": 5,
+        "video": "https://example.com/video5",
+        "keywords": []
+      }
+    ]
+  }
+  

@@ -5,7 +5,7 @@
         "id_empresa_clientes": 1,
         "nombre_cliente": "Luis González",
         "telefono": "123-456-7890",
-        "id_proyectos": [1, 2]
+        "id_proyectos": [1]
       },
       {
         "Id_cliente": 2,
@@ -19,28 +19,28 @@
         "id_empresa_clientes": 3,
         "nombre_cliente": "Carlos Martínez",
         "telefono": "555-123-4567",
-        "id_proyectos": []
+        "id_proyectos": [2]
       },
       {
         "Id_cliente": 4,
         "id_empresa_clientes": 4,
         "nombre_cliente": "Ana Pérez",
         "telefono": "333-987-6543",
-        "id_proyectos": [4, 5, 6]
+        "id_proyectos": [4]
       },
       {
         "Id_cliente": 5,
         "id_empresa_clientes": 5,
         "nombre_cliente": "Juan García",
         "telefono": "777-111-2222",
-        "id_proyectos": [7, 8]
+        "id_proyectos": [5]
       },
       {
         "Id_cliente": 6,
         "id_empresa_clientes": 1,
         "nombre_cliente": "Laura Sánchez",
         "telefono": "999-888-7777",
-        "id_proyectos": [9, 10]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 7,
@@ -54,14 +54,14 @@
         "id_empresa_clientes": 3,
         "nombre_cliente": "Sofía Díaz",
         "telefono": "222-333-4444",
-        "id_proyectos": [1]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 9,
         "id_empresa_clientes": 4,
         "nombre_cliente": "Lucía Torres",
         "telefono": "111-222-3333",
-        "id_proyectos": [2, 3]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 10,
@@ -75,7 +75,7 @@
         "id_empresa_clientes": 1,
         "nombre_cliente": "Elena Ruiz",
         "telefono": "333-222-1111",
-        "id_proyectos": [4, 5]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 12,
@@ -89,14 +89,14 @@
         "id_empresa_clientes": 3,
         "nombre_cliente": "Carmen González",
         "telefono": "111-999-7777",
-        "id_proyectos": [6, 7]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 14,
         "id_empresa_clientes": 4,
         "nombre_cliente": "Andrea Gómez",
         "telefono": "555-666-7777",
-        "id_proyectos": [8]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 15,
@@ -110,14 +110,14 @@
         "id_empresa_clientes": 1,
         "nombre_cliente": "Patricia García",
         "telefono": "777-888-9999",
-        "id_proyectos": [9, 10]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 17,
         "id_empresa_clientes": 2,
         "nombre_cliente": "Roberto Martínez",
         "telefono": "111-999-7777",
-        "id_proyectos": [1]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 18,
@@ -131,14 +131,14 @@
         "id_empresa_clientes": 4,
         "nombre_cliente": "Sergio Hernández",
         "telefono": "111-222-3333",
-        "id_proyectos": [2, 3]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 20,
         "id_empresa_clientes": 5,
         "nombre_cliente": "Lorena Díaz",
         "telefono": "777-888-9999",
-        "id_proyectos": [4]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 21,
@@ -152,14 +152,14 @@
         "id_empresa_clientes": 2,
         "nombre_cliente": "Paula Moreno",
         "telefono": "555-666-7777",
-        "id_proyectos": [5, 6]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 23,
         "id_empresa_clientes": 3,
         "nombre_cliente": "Gabriel Castro",
         "telefono": "111-222-3333",
-        "id_proyectos": [7]
+        "id_proyectos": []
       },
       {
         "Id_cliente": 24,
@@ -173,7 +173,7 @@
         "id_empresa_clientes": 5,
         "nombre_cliente": "Eva Navarro",
         "telefono": "111-999-7777",
-        "id_proyectos": [8, 9]
+        "id_proyectos": []
       }
     ]
   }

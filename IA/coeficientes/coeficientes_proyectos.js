@@ -1,5 +1,5 @@
 // funciones 
-const obtenerValoresDecimales = require('./funciones_strings');
+const obtenerValoresDecimales = require('../funciones/funciones_strings');
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 

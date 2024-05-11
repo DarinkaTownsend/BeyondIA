@@ -7,10 +7,10 @@ const { run_puntaje_zonaHoraria, run_puntaje_horasDisponibles } = puntajeHorario
 
 
 // coeficientes 
-const run_nivel_industrias = require('./coeficientes_proyectos');
-const run_nivel_idioma = require('./coeficientes_proyectos');
-const run_nivel_disponibilidad = require('./coeficientes_proyectos');
-const run_relevancia_categoria = require('./coeficiente_categoria');
+const run_nivel_industrias = require('./coeficientes/coeficientes_proyectos');
+const run_nivel_idioma = require('./coeficientes/coeficientes_proyectos');
+const run_nivel_disponibilidad = require('./coeficientes/coeficientes_proyectos');
+const run_relevancia_categoria = require('./coeficientes/coeficiente_categoria');
 
 //archivos
 const fs = require('fs').promises;
@@ -19,8 +19,8 @@ const proyectosJSON = path.join(__dirname, '..', 'Datos', 'proyectos.json');
 const consultoresJSON = path.join(__dirname, '..', 'Datos', 'consultores.json');
 const proyectoID = 1; // Define el ID del proyecto que deseas obtener
 const consultorID = 1; // Define el ID del consultor que deseas obtener
-const obtenerJSON = require('./peticionesProyectos');
-const obtenerConsultorJSON = require('./peticionesConsultores');
+const obtenerJSON = require('./funciones/peticionesProyectos');
+const obtenerConsultorJSON = require('./funciones/peticionesConsultores');
 
 
 // Llama a la función dentro de otra función asíncrona o utiliza await en un contexto asíncrono
@@ -178,9 +178,5 @@ async function main() {
 
   }
 
-
-
-  
-// Llama a la función main para iniciar el proceso
 main();
 

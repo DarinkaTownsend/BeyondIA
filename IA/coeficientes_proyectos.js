@@ -6,7 +6,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 // Access your API key as an environment variable (see "Set up your API key" above)
 const genAI = new GoogleGenerativeAI("AIzaSyBeQDRGwVdXWk2_XriIvHj9OiVl2iCGyEM");
 
-async function run_nivel_industria(descripcion_industria) {
+async function run_nivel_industrias(descripcion_industria) {
   // For text-only input, use the gemini-pro model
   const model = genAI.getGenerativeModel({ model: "gemini-pro"});
 
@@ -67,6 +67,12 @@ async function run_nivel_idioma(descripcion_industria) {
     return lstNivelDisponibilidad;
   }
 
-module.exports = run_nivel_industria;
-module.exports = run_nivel_idioma;
-module.exports = run_nivel_disponibilidad;
+// Exporta las funciones como un objeto
+module.exports = {
+  run_nivel_industrias,
+  run_nivel_idioma,
+  run_nivel_disponibilidad,
+};
+
+
+

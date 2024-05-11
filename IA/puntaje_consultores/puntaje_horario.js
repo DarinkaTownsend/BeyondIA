@@ -36,5 +36,7 @@ async function run_puntaje_horasDisponibles(perfil_consultor, descripcion_proyec
     return valorPuntajeHoras;
   }
 
-module.exports = run_puntaje_zonaHoraria;
-module.exports = run_puntaje_horasDisponibles;
+module.exports = {
+  run_puntaje_zonaHoraria,
+  run_puntaje_horasDisponibles
+};

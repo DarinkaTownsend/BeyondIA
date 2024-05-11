@@ -85,7 +85,10 @@ async function run_puntaje_habilidades(perfil_consultor, industria_consultor, de
 
 
 
-module.exports = run_puntaje_años_experiencia;
-module.exports = run_puntaje_satisfacción;
-module.exports = run_puntaje_proyectos;
-module.exports = run_puntaje_habilidades;
+
+module.exports = {
+  run_puntaje_años_experiencia,
+  run_puntaje_satisfacción,
+  run_puntaje_proyectos,
+  run_puntaje_habilidades
+};

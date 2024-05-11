@@ -27,5 +27,8 @@ async function run_relevancia_categoria(descripcion_industria) {
 
 }
 
-module.exports = run_relevancia_categoria;
+module.exports = {
+  run_relevancia_categoria
+};
+
 

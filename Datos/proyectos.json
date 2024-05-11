@@ -77,7 +77,6 @@
       "Disponibilidad": "Tiempo completo",
       "Zona_horaria": "GMT-5",
       "Idiomas_necesarios": [
-        "Ingles",
         "Espanol"
       ],
       "tipo": "privado",
@@ -107,8 +106,7 @@
       "Disponibilidad": "Medio tiempo",
       "Zona_horaria": "GMT-4",
       "Idiomas_necesarios": [
-        "Ingles",
-        "Espanol"
+        "Ingles"
       ],
       "tipo": "publico",
       "descripcion": "Se busca un equipo de desarrolladores para crear una aplicacion para controlar dispositivos IoT y realizar la integracion de estos dispositivos.",

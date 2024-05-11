@@ -5,6 +5,9 @@
 
 Este sistema te permite evaluar la compatibilidad entre un consultor y un proyecto basado en una serie de criterios establecidos.
 
+Se brinda una nota adicional para recordar al usuario que se deben tener en cuenta los archivos JSON de consultores y proyectos en donde se encuentran con el ID respectivo. A nivel posterior, dicho archivo vendr'ia de una Base de Datos y se realizaría un Query. 
+
+
 ## Pasos para Ejecutar
 
 1. Abre el archivo `IA/run.js` en tu editor de código.
@@ -16,3 +19,5 @@ Este sistema te permite evaluar la compatibilidad entre un consultor y un proyec
 
 ```bash
 node run.js
+
+

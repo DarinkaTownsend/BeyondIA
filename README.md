@@ -7,8 +7,12 @@ Este sistema te permite evaluar la compatibilidad entre un consultor y un proyec
 
 Se brinda una nota adicional para recordar al usuario que se deben tener en cuenta los archivos JSON de consultores y proyectos en donde se encuentran con el ID respectivo. A nivel posterior, dicho archivo vendr'ia de una Base de Datos y se realizaría un Query. 
 
+Confiamos fielmente que las explicaciones son mejores mediante diagramas, por lo que adjuntamos el link de Lucid en el que plasmamos y organizamos todas nuestras ideas.
 
-## Ejemplos de desarrollo
+**Lógica en diagrama:** [Link a Lucidchart](https://lucid.app/lucidchart/e94b4673-a4d1-4027-8a94-a8a863f0725a/edit?viewport_loc=-6623%2C-519%2C13921%2C5673%2C0_0&invitationId=inv_f0e9ee2d-c56c-49ac-90e6-3a9dbdb6f66b)
+
+
+## Ejemplos de desarrollo en consola (Desarrollo del aplicativo en proceso)
 
 1. `IDCONSULTOR` = 1 y `IDPROYECTO` = 2
 La información del consultor se encuentra en consultores.json
@@ -35,6 +39,11 @@ La información del proyecto se encuentra en proyectos.json
 node run.js
 ```
 
+## Ejemplos de flujo de pantallas en el prototipo (Desarrollo del aplicativo en proceso)
+![Texto](./images/front1.png)
+![Texto](./images/front2.png)
+![Texto](./images/front3.png)
+![Texto](./images/front4.png)
 
 
 

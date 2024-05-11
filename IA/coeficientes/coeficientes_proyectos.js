@@ -26,7 +26,6 @@ async function run_nivel_industrias(descripcion_industria) {
   const nivelIndustria = await response.text();
   const lstNivelIndustria = obtenerValoresDecimales(nivelIndustria);
   return lstNivelIndustria;
-
 }
 
 async function run_nivel_idioma(descripcion_industria) {

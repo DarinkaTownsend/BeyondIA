@@ -8,7 +8,21 @@ Este sistema te permite evaluar la compatibilidad entre un consultor y un proyec
 Se brinda una nota adicional para recordar al usuario que se deben tener en cuenta los archivos JSON de consultores y proyectos en donde se encuentran con el ID respectivo. A nivel posterior, dicho archivo vendr'ia de una Base de Datos y se realizaría un Query. 
 
 
+## Ejemplos de desarrollo
+
+1. `IDCONSULTOR` = 1 y `IDPROYECTO` = 2
+La información del consultor se encuentra en consultores.json
+![Texto](images\consultor1.png)
+
+La información del proyecto se encuentra en proyectos.json
+![Texto](images\proyecto2.png)
+
+2. La compatibilidad entre el consultor con ID = 1 y el proyecto con ID = 2 es sobre 10:
+![Texto](images\result1.png)
+
 ## Pasos para Ejecutar
+
+(CONSIDERACIÓN: Por la cantidad de peticiones, de vez en cuando los prompts no devuelven lo solicitado, por lo que la respuesta será NaN. Hay que tener un tiempo entre petición de alrededor de 1min.)
 
 1. Abre el archivo `IA/run.js` en tu editor de código.
 2. Localiza las variables `IDCONSULTOR` e `IDPROYECTO` en el código.
@@ -19,5 +33,10 @@ Se brinda una nota adicional para recordar al usuario que se deben tener en cuen
 
 ```bash
 node run.js
+```
+
+
+
+
 
 

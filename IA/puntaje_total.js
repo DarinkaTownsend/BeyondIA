@@ -153,9 +153,7 @@ async function main(proyectoID, consultorID ) {
             disponibilidadScore = (coeficientes3.x * puntajeZonaHoraria) + (coeficientes3.y * puntajeHorasDisponibles) 
             //PuntajeTotal
             puntajeFinal = (coeficientesRelevanciaCategoria.x * industriaScore) + (coeficientesRelevanciaCategoria.y * idiomaScore) + (coeficientesRelevanciaCategoria.z * disponibilidadScore) 
-            console.log("La compatibilidad (sobre 10) entre el consultor y el proyecto es de: ");
-            //let puntajeRedondeado = Math.round(puntajeFinal);
-            console.log(puntajeFinal);
+            console.log("La compatibilidad (sobre 10) entre el consultor y el proyecto es de:", puntajeFinal + "/10");
             })
         .catch(error => {
             console.error('Error al obtener el otro JSON:', error);

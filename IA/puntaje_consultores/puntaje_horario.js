@@ -10,6 +10,7 @@ async function run_puntaje_zonaHoraria(perfil_consultor, descripcion_proyecto_ho
     const prompt = "En una escala del 1 al 10, donde "  + 
      "1: Zona horario muy distante a la del cliente. " + 
      "Mientras que 10: Misma zona horaria del cliente" +
+     "escala: <fill>" +
      " Califica el nivel de compatibilidad (en un dígito que puede ser expresado con hasta 2 decimales) de zonas horarias de la siguiente persona: " + 
      perfil_consultor + ". En relación con las necesidades del siguiente proyecto: " + descripcion_proyecto_horario 
   
@@ -26,6 +27,7 @@ async function run_puntaje_horasDisponibles(perfil_consultor, descripcion_proyec
   
     const prompt = "En una escala del 1 al 10, donde "  + 
      "1:  No calza para nada con las horas del cliente. Mientras que 10: Calza 100% con las horas del cliente." + 
+     "escala: <fill>" +
      " Califica el nivel de compatibilidad (en un dígito que puede ser expresado con hasta 2 decimales) de la disponibilidad de franja horaria de la siguiente persona: " + 
      perfil_consultor + ". En relación con las necesidades del siguiente proyecto: " + descripcion_proyecto_horario 
   

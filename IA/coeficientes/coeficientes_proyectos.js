@@ -16,6 +16,7 @@ async function run_nivel_industrias(descripcion_industria) {
    "y = Nivel de satisfacción " + 
    "z = Calidad de proyectos " +
    "w = Certificaciones en la industria " +
+   "coeficientes: <fill>" +
    "Estos coeficientes deben sumar 1 y pueden ser expresados con hasta 2 decimales. " + 
    "indícalos de la forma adecuada para que reflejen el nivel de relevancia" + 
    "que se debe tener en cuenta al contratar a alguien para el proyecto: " + descripcion_industria

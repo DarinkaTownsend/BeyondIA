@@ -10,6 +10,7 @@ async function run_puntaje_fluidez(perfil_consultor, idioma_consultor, industria
     const prompt = "En una escala del 1 al 10, donde "  + 
      "1: Menor fluidez del idioma. " + 
      "Mientras que 10: Mayor fluidez del idioma. " +
+     "escala: <fill>" +
      " Califica el nivel de fuidez (devuelve un número, que puede ser expresado con hasta 2 decimales) en el idioma " + idioma_consultor +  "en la industria "+
      industria_consultor +" de la siguiente persona: " + 
      perfil_consultor + ". En relación con las necesidades del siguiente proyecto: " + descripcion_proyecto_idioma 
@@ -29,6 +30,7 @@ async function run_puntaje_experiencia_idiomas(perfil_consultor, idioma_consulto
      "1: Menor experiencia del idioma en la industria. Ej: Baja o nula cantidad de proyectos de la industria realizados en el idioma, pocas certificaciones " + 
      "Mientras que 10: Mayor experiencia del idioma en la industria. Ej: Cantidad considerable de proyectos de la industria realizados en el idioma , certificaciones de calidad." +
      " Califica el nivel de experiencia (que puede ser expresado con hasta 2 decimales para extraer y operar) en el idioma más importante en la industria "+
+     "escala: <fill>" +
      industria_consultor +" de la siguiente persona: " + 
      perfil_consultor + ". En relación con las necesidades del siguiente proyecto: " + descripcion_proyecto_idioma 
   

@@ -15,6 +15,7 @@ async function run_relevancia_categoria(descripcion_industria) {
    "x = Experiencia en la industria requerida " + 
    "y = Nivel de idioma requerido " + 
    "z = Disponibilidad de horarios requerido " +
+   "coeficientes: <fill>" +
    "Estos coeficientes deben sumar 1 y pueden ser expresados con hasta 2 decimales. " + 
    "indícalos de la forma adecuada para que reflejen el nivel de relevancia" + 
    "que se debe tener en cuenta al contratar a alguien para el proyecto: " + descripcion_industria

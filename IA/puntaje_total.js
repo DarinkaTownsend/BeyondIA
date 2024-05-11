@@ -24,7 +24,7 @@ const obtenerConsultorJSON = require('./funciones/peticionesConsultores');
 
 
 // Llama a la función dentro de otra función asíncrona o utiliza await en un contexto asíncrono
-async function main() {
+async function main(proyectoID, consultorID ) {
 
     // info coeficientes
     let descripcion_proyecto_coeficientes;
@@ -153,12 +153,9 @@ async function main() {
             disponibilidadScore = (coeficientes3.x * puntajeZonaHoraria) + (coeficientes3.y * puntajeHorasDisponibles) 
             //PuntajeTotal
             puntajeFinal = (coeficientesRelevanciaCategoria.x * industriaScore) + (coeficientesRelevanciaCategoria.y * idiomaScore) + (coeficientesRelevanciaCategoria.z * disponibilidadScore) 
-            console.log("El puntaje final es: ");
+            console.log("La compatibilidad (sobre 10) entre el consultor y el proyecto es de: ");
+            //let puntajeRedondeado = Math.round(puntajeFinal);
             console.log(puntajeFinal);
-
-                    
- 
-
             })
         .catch(error => {
             console.error('Error al obtener el otro JSON:', error);
@@ -178,5 +175,6 @@ async function main() {
 
   }
 
-main();
+//main(proyectoID, consultorID );
+module.exports = { main };
 

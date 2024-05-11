@@ -1,50 +1,153 @@
 
 {
-    "proyectos": [
-      {
-        "Id_proyecto": 1,
-        "nombre_proyecto": "Desarrollo de aplicacion movil",
-        "tipo": "privado",
-        "descripcion": "Se necesita un consultor con experiencia en desarrollo de aplicaciones moviles para crear una aplicacion de gestion de tareas para dispositivos iOS y Android.",
-        "skills": ["iOS", "Android", "Swift", "Kotlin"],
-        "requisitos": ["Experiencia previa en desarrollo de aplicaciones moviles", "Conocimiento de Swift y Kotlin"],
-        "id_postulantes": [1, 2, 3]
-      },
-      {
-        "Id_proyecto": 2,
-        "nombre_proyecto": "Diseno de interfaz de usuario",
-        "tipo": "publico",
-        "descripcion": "Se busca un consultor con habilidades de diseno grafico y experiencia en diseno de interfaces de usuario para mejorar la usabilidad de nuestro sitio web.",
-        "skills": ["Diseno grafico", "UI/UX", "Adobe XD", "Sketch"],
-        "requisitos": ["Experiencia previa en diseno de interfaces de usuario", "Conocimiento de herramientas de diseno como Adobe XD o Sketch"],
-        "id_postulantes": [4, 5]
-      },
-      {
-        "Id_proyecto": 3,
-        "nombre_proyecto": "Implementacion de sistema de gestion de contenido",
-        "tipo": "privado",
-        "descripcion": "Necesitamos un consultor con experiencia en sistemas de gestion de contenido (CMS) para implementar un sistema que permita la administracion eficiente de nuestro contenido web.",
-        "skills": ["CMS", "WordPress", "Drupal", "Joomla"],
-        "requisitos": ["Experiencia en implementacion de sistemas CMS", "Conocimiento de WordPress, Drupal o Joomla"],
-        "id_postulantes": [6, 7]
-      },
-      {
-        "Id_proyecto": 4,
-        "nombre_proyecto": "Desarrollo de aplicacion web de comercio electronico",
-        "tipo": "publico",
-        "descripcion": "Estamos buscando un consultor con experiencia en desarrollo de aplicaciones web de comercio electronico para crear una plataforma de venta en linea para nuestra empresa.",
-        "skills": ["Desarrollo web", "E-commerce", "PHP", "JavaScript"],
-        "requisitos": ["Experiencia previa en desarrollo de aplicaciones web de comercio electronico", "Conocimiento de PHP y JavaScript"],
-        "id_postulantes": [8]
-      },
-      {
-        "Id_proyecto": 5,
-        "nombre_proyecto": "Analisis de datos para optimizacion de procesos",
-        "tipo": "privado",
-        "descripcion": "Se requiere un consultor con habilidades en analisis de datos y experiencia en el uso de herramientas como Python y R para analizar datos operativos y proponer mejoras en nuestros procesos internos.",
-        "skills": ["Analisis de datos", "Python", "R", "Machine Learning"],
-        "requisitos": ["Experiencia en analisis de datos", "Conocimiento de Python y R"],
-        "id_postulantes": [9, 10]
-      }
-    ]
+  "proyectos": [
+    {
+      "Id_proyecto": 1,
+      "nombre_proyecto": "Desarrollo de aplicacion movil",
+
+      "Duracion": "3 meses",
+      "Objetivo": ["Crear una aplicacion de gestion de tareas para dispositivos iOS y Android", "Mejorar la productividad de los usuarios al permitirles organizar sus tareas de forma eficiente"],
+      "Habilidad_por_objetivo": ["Desarrollo de aplicaciones moviles", "Conocimiento de Swift y Kotlin", "Experiencia en diseno de interfaces de usuario"],
+      "Experiencia_necesaria":"Experiencia previa en desarrollo de aplicaciones moviles",
+      "Certificaciones_necesarias":["Certificacion en desarrollo de aplicaciones moviles", "Certificacion en diseno de interfaces de usuario"],
+
+      "Precio":10,
+      "Ubicacion":"Remoto",
+      "Disponibilidad":"Tiempo completo",
+      "Zona_horaria":"GMT-5",
+
+      "Idiomas_necesarios":["Ingles","Espanol"],
+
+
+      "tipo": "privado",
+      "descripcion": "Se necesita un consultor con experiencia en desarrollo de aplicaciones moviles para crear una aplicacion de gestion de tareas para dispositivos iOS y Android.",
+      "id_postulantes": [1, 2, 3]
+    },
+    {
+      "Id_proyecto": 2,
+      "nombre_proyecto": "Desarrollo de plataforma web",
+      "Duracion": "6 meses",
+      "Objetivo": [
+        "Crear una plataforma web de comercio electronico",
+        "Optimizar la experiencia del usuario durante la compra y navegacion"
+      ],
+      "Habilidad_por_objetivo": [
+        "Desarrollo web",
+        "Conocimiento de HTML, CSS y JavaScript",
+        "Experiencia en diseno de interfaces de usuario"
+      ],
+      "Experiencia_necesaria": "Experiencia previa en desarrollo de plataformas web",
+      "Certificaciones_necesarias": [
+        "Certificacion en desarrollo web",
+        "Certificacion en diseno de interfaces de usuario"
+      ],
+      "Precio": 15,
+      "Ubicacion": "Presencial",
+      "Disponibilidad": "Medio tiempo",
+      "Zona_horaria": "GMT-3",
+      "Idiomas_necesarios": [
+        "Ingles",
+        "Espanol",
+        "Portugues"
+      ],
+      "tipo": "publico",
+      "descripcion": "Se busca un equipo de desarrolladores para crear una plataforma web de comercio electronico y mejorar la experiencia del usuario.",
+      "id_postulantes": [4, 5]
+    },
+    {
+      "Id_proyecto": 3,
+      "nombre_proyecto": "Desarrollo de aplicacion de escritorio",
+      "Duracion": "4 meses",
+      "Objetivo": [
+        "Crear una aplicacion de gestion de inventario",
+        "Automatizar procesos de seguimiento y control de productos"
+      ],
+      "Habilidad_por_objetivo": [
+        "Desarrollo de aplicaciones de escritorio",
+        "Conocimiento de Java y C#",
+        "Experiencia en bases de datos relacionales"
+      ],
+      "Experiencia_necesaria": "Experiencia previa en desarrollo de aplicaciones de escritorio",
+      "Certificaciones_necesarias": [
+        "Certificacion en desarrollo de aplicaciones de escritorio",
+        "Certificacion en bases de datos"
+      ],
+      "Precio": 12,
+      "Ubicacion": "Remoto",
+      "Disponibilidad": "Tiempo completo",
+      "Zona_horaria": "GMT-5",
+      "Idiomas_necesarios": [
+        "Ingles",
+        "Espanol"
+      ],
+      "tipo": "privado",
+      "descripcion": "Se requiere un desarrollador con experiencia en desarrollo de aplicaciones de escritorio para crear una aplicacion de gestion de inventario.",
+      "id_postulantes": [6]
+    },
+    {
+      "Id_proyecto": 4,
+      "nombre_proyecto": "Desarrollo de aplicacion IoT",
+      "Duracion": "5 meses",
+      "Objetivo": [
+        "Crear una aplicacion para controlar dispositivos IoT",
+        "Integrar diferentes dispositivos IoT en una sola plataforma"
+      ],
+      "Habilidad_por_objetivo": [
+        "Desarrollo de aplicaciones IoT",
+        "Conocimiento de Python y JavaScript",
+        "Experiencia en protocolos de comunicacion IoT"
+      ],
+      "Experiencia_necesaria": "Experiencia previa en desarrollo de aplicaciones IoT",
+      "Certificaciones_necesarias": [
+        "Certificacion en desarrollo de aplicaciones IoT",
+        "Certificacion en protocolos de comunicacion"
+      ],
+      "Precio": 18,
+      "Ubicacion": "Presencial",
+      "Disponibilidad": "Medio tiempo",
+      "Zona_horaria": "GMT-4",
+      "Idiomas_necesarios": [
+        "Ingles",
+        "Espanol"
+      ],
+      "tipo": "publico",
+      "descripcion": "Se busca un equipo de desarrolladores para crear una aplicacion para controlar dispositivos IoT y realizar la integracion de estos dispositivos.",
+      "id_postulantes": [7, 8]
+    },
+    {
+      "Id_proyecto": 5,
+      "nombre_proyecto": "Desarrollo de aplicacion de realidad aumentada",
+      "Duracion": "7 meses",
+      "Objetivo": [
+        "Crear una aplicacion de realidad aumentada para el sector educativo",
+        "Proporcionar experiencias educativas innovadoras y envolventes"
+      ],
+      "Habilidad_por_objetivo": [
+        "Desarrollo de aplicaciones de realidad aumentada",
+        "Conocimiento de Unity y C#",
+        "Experiencia en diseño de experiencias de usuario"
+      ],
+      "Experiencia_necesaria": "Experiencia previa en desarrollo de aplicaciones de realidad aumentada",
+      "Certificaciones_necesarias": [
+        "Certificacion en desarrollo de aplicaciones de realidad aumentada",
+        "Certificacion en diseño de experiencias de usuario"
+      ],
+      "Precio": 20,
+      "Ubicacion": "Remoto",
+      "Disponibilidad": "Tiempo completo",
+      "Zona_horaria": "GMT-5",
+      "Idiomas_necesarios": [
+        "Ingles",
+        "Espanol"
+      ],
+      "tipo": "privado",
+      "descripcion": "Se busca un equipo de desarrolladores con experiencia en realidad aumentada para crear una aplicación innovadora destinada al sector educativo. El objetivo es proporcionar experiencias educativas envolventes y atractivas para los estudiantes.",
+      "id_postulantes": [9, 10, 11]
+    }
+    
+    
+    
+    
+    
+  ]
 }

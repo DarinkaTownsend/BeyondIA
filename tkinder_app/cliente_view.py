@@ -55,7 +55,7 @@ class ClienteView:
         self.frame.pack_forget()  # Oculta la vista ClienteView
         self.proyectos_view.frame.pack()  # Muestra la vista ProyectosView
 
-
+##sadasdas
     def ocultar(self):
         self.frame.pack_forget()
 

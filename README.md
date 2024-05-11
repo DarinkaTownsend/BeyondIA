@@ -12,13 +12,13 @@ Se brinda una nota adicional para recordar al usuario que se deben tener en cuen
 
 1. `IDCONSULTOR` = 1 y `IDPROYECTO` = 2
 La información del consultor se encuentra en consultores.json
-![Texto](images\consultor1.png)
+![Texto](./images/consultor1.png)
 
 La información del proyecto se encuentra en proyectos.json
-![Texto](images\proyecto2.png)
+![Texto](./images/proyecto2.png)
 
 2. La compatibilidad entre el consultor con ID = 1 y el proyecto con ID = 2 es sobre 10:
-![Texto](images\result1.png)
+![Texto](./images/result1.png)
 
 ## Pasos para Ejecutar
 

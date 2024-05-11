@@ -76,7 +76,7 @@ const descripcion_industria = "Descripción del Proyecto: Desarrollo de Platafor
 "\n\nPerfil de Equipo Ideal: Desarrolladores Full-stack con experiencia en logística y sistemas de seguimiento." +
 "\n\nInformación del Cliente: Industria de Logística, Ubicación: Ciudad de México, México."
 
-const codigoEmpresa = "EM123"
-const codigoProyecto = "P1EM123"
 
+console.log(run_nivel_industria(descripcion_industria));
+console.log(run_nivel_idioma(descripcion_industria));
 console.log(run_nivel_disponibilidad(descripcion_industria));

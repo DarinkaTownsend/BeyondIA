@@ -40,6 +40,8 @@ node run.js
 ```
 
 ## Ejemplos de flujo de pantallas en el prototipo (Desarrollo del aplicativo en proceso)
+Un flujo de pantalla efectivo permite el ingreso de los datos necesarios para obtener un nivel de compatibilidad confiable. Así como la importancia de la presenetación de dicha información.
+
 ![Texto](./images/front1.png)
 ![Texto](./images/front2.png)
 ![Texto](./images/front3.png)

@@ -1,106 +1,204 @@
 {
-    "consultores": [
-      {
-        "Id_consultor": 1,
-        "id_empresa_consultora": 10,
-        "nombre_consultor": "Juan Pérez",
-        "telefono": "123-456-7890",
-        "cant_trabajos": 8,
-        "skills": ["Python", "Machine Learning", "SQL"],
-        "intereses": ["Desarrollo web", "Data Science"],
-        "certificaciones": ["Certificación Python", "Certificación Machine Learning"]
+  "consultores": [
+    {
+      "Id_consultor": 1,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Juan Pérez",
+      "telefono": "123-456-7890",
+      "cant_trabajos": 8,
+      "experiencia": {
+        "anos": 5,
+        "proyectos_anteriores": ["Analisis de datos", "Desarrollo de software", "Desarrollo web"],
+        "roles_y_responsabilidades": ["Desarrollo de software", "Analisis de datos", "Desarrollo web"],
+        "recomendaciones": ["Excelente trabajo", "Muy buen profesional", "Gran capacidad de aprendizaje"],
+        "formacion_academica": ["Ingeniería en Sistemas", "Maestría en Ciencia de Datos", "Diplomado en Machine Learning"],
+        "skills": ["Python", "Machine Learning", "SQL"]
       },
-      {
-        "Id_consultor": 2,
-        "id_empresa_consultora": 11,
-        "nombre_consultor": "María García",
-        "telefono": "987-654-3210",
-        "cant_trabajos": 6,
-        "skills": ["Java", "Spring", "Hibernate"],
-        "intereses": ["Desarrollo de aplicaciones empresariales", "Backend"],
-        "certificaciones": ["Certificación Java", "Certificación Spring"]
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Avanzado", "Nativo"],
+        "certificaciones": ["TOEFL", "IELTS"]
       },
-      {
-        "Id_consultor": 3,
-        "id_empresa_consultora": 12,
-        "nombre_consultor": "Carlos Martínez",
-        "telefono": "555-123-4567",
-        "cant_trabajos": 10,
-        "skills": ["JavaScript", "React", "Node.js"],
-        "intereses": ["Desarrollo web", "Frontend"],
-        "certificaciones": ["Certificación JavaScript", "Certificación React"]
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Tiempo completo"
+      }
+    },
+    {
+      "Id_consultor": 2,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "María Rodriguez",
+      "telefono": "987-654-3210",
+      "cant_trabajos": 10,
+      "experiencia": {
+        "anos": 7,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones móviles", "Gestión de proyectos de software", "Análisis de datos"],
+        "roles_y_responsabilidades": ["Liderazgo de equipos de desarrollo", "Diseño de arquitecturas de software", "Análisis estadístico"],
+        "recomendaciones": ["Gran capacidad de liderazgo", "Excelentes habilidades de comunicación", "Profesional altamente dedicada"],
+        "formacion_academica": ["Ingeniería en Sistemas", "Maestría en Gestión de Proyectos", "Curso en Análisis de Datos"],
+        "skills": ["Java", "Python", "R", "Scrum"]
       },
-      {
-        "Id_consultor": 4,
-        "id_empresa_consultora": 13,
-        "nombre_consultor": "Laura Rodríguez",
-        "telefono": "333-987-6543",
-        "cant_trabajos": 12,
-        "skills": ["C#", ".NET", "ASP.NET"],
-        "intereses": ["Desarrollo de aplicaciones empresariales", "Backend"],
-        "certificaciones": ["Certificación C#", "Certificación .NET"]
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Avanzado", "Nativo"],
+        "certificaciones": ["TOEIC", "DELE"]
       },
-      {
-        "Id_consultor": 5,
-        "id_empresa_consultora": 14,
-        "nombre_consultor": "Diego López",
-        "telefono": "777-111-2222",
-        "cant_trabajos": 7,
-        "skills": ["PHP", "Laravel", "MySQL"],
-        "intereses": ["Desarrollo web", "E-commerce"],
-        "certificaciones": ["Certificación PHP", "Certificación Laravel"]
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Tiempo completo"
+      }
+    },
+    {
+      "Id_consultor": 3,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Carlos Gómez",
+      "telefono": "555-555-5555",
+      "cant_trabajos": 6,
+      "experiencia": {
+        "anos": 4,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones web", "Desarrollo de sistemas de gestión", "Análisis de datos financieros"],
+        "roles_y_responsabilidades": ["Programación frontend y backend", "Diseño de bases de datos", "Elaboración de informes financieros"],
+        "recomendaciones": ["Altamente competente", "Siempre cumple con los plazos", "Gran habilidad para resolver problemas"],
+        "formacion_academica": ["Ingeniería en Informática", "Curso en Finanzas Corporativas", "Diplomado en Desarrollo Web"],
+        "skills": ["JavaScript", "PHP", "MySQL"]
       },
-      {
-        "Id_consultor": 6,
-        "id_empresa_consultora": 15,
-        "nombre_consultor": "Ana Gómez",
-        "telefono": "999-888-7777",
-        "cant_trabajos": 9,
-        "skills": ["Python", "Django", "Flask"],
-        "intereses": ["Desarrollo web", "Web scraping"],
-        "certificaciones": ["Certificación Python", "Certificación Django"]
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Intermedio", "Avanzado"],
+        "certificaciones": ["PET", "Diploma de Español"]
       },
-      {
-        "Id_consultor": 7,
-        "id_empresa_consultora": 10,
-        "nombre_consultor": "Javier Ruiz",
-        "telefono": "666-555-4444",
-        "cant_trabajos": 5,
-        "skills": ["Java", "Spring Boot", "MongoDB"],
-        "intereses": ["Desarrollo web", "Big Data"],
-        "certificaciones": ["Certificación Java", "Certificación Spring Boot"]
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Medio tiempo"
+      }
+    },
+    {
+      "Id_consultor": 4,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Laura Martínez",
+      "telefono": "777-777-7777",
+      "cant_trabajos": 9,
+      "experiencia": {
+        "anos": 6,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones móviles", "Desarrollo de software empresarial", "Análisis de datos de marketing"],
+        "roles_y_responsabilidades": ["Programación móvil", "Diseño de arquitecturas escalables", "Análisis de tendencias de mercado"],
+        "recomendaciones": ["Muy eficiente", "Gran atención al detalle", "Excelente capacidad para trabajar en equipo"],
+        "formacion_academica": ["Ingeniería en Sistemas", "Diplomado en Marketing Digital", "Curso en Desarrollo Móvil"],
+        "skills": ["Swift", "Java", "Python", "SQL"]
       },
-      {
-        "Id_consultor": 8,
-        "id_empresa_consultora": 11,
-        "nombre_consultor": "Sofía Fernández",
-        "telefono": "222-333-4444",
-        "cant_trabajos": 11,
-        "skills": ["JavaScript", "Vue.js", "Node.js"],
-        "intereses": ["Desarrollo web", "Frontend"],
-        "certificaciones": ["Certificación JavaScript", "Certificación Vue.js"]
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Avanzado", "Nativo"],
+        "certificaciones": ["TOEFL", "DELE"]
       },
-      {
-        "Id_consultor": 9,
-        "id_empresa_consultora": 12,
-        "nombre_consultor": "Pablo Pérez",
-        "telefono": "111-222-3333",
-        "cant_trabajos": 8,
-        "skills": ["Python", "TensorFlow", "Keras"],
-        "intereses": ["Inteligencia Artificial", "Machine Learning"],
-        "certificaciones": ["Certificación Python", "Certificación TensorFlow"]
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Tiempo completo"
+      }
+    },
+    {
+      "Id_consultor": 6,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Ana López",
+      "telefono": "666-666-6666",
+      "cant_trabajos": 7,
+      "experiencia": {
+        "anos": 5,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones móviles", "Desarrollo de software empresarial", "Análisis de datos de marketing"],
+        "roles_y_responsabilidades": ["Liderazgo de equipos de desarrollo", "Diseño de arquitecturas escalables", "Análisis de tendencias de mercado"],
+        "recomendaciones": ["Muy eficiente", "Gran atención al detalle", "Excelente capacidad para trabajar en equipo"],
+        "formacion_academica": ["Ingeniería en Sistemas", "Diplomado en Marketing Digital", "Curso en Desarrollo Móvil"],
+        "skills": ["Swift", "Java", "Python", "SQL"]
       },
-      {
-        "Id_consultor": 10,
-        "id_empresa_consultora": 13,
-        "nombre_consultor": "Carmen López",
-        "telefono": "555-666-7777",
-        "cant_trabajos": 6,
-        "skills": ["C++", "Qt", "OpenGL"],
-        "intereses": ["Desarrollo de software", "Gráficos 3D"],
-        "certificaciones": ["Certificación Python", "Certificación TensorFlow"]
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Avanzado", "Nativo"],
+        "certificaciones": ["TOEFL", "DELE"]
+      },
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Tiempo completo"
+      }
+    },
+    {
+      "Id_consultor": 7,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Pedro García",
+      "telefono": "999-999-9999",
+      "cant_trabajos": 9,
+      "experiencia": {
+        "anos": 6,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones móviles", "Gestión de proyectos de software", "Análisis de datos financieros"],
+        "roles_y_responsabilidades": ["Programación móvil", "Diseño de arquitecturas escalables", "Análisis de tendencias de mercado"],
+        "recomendaciones": ["Gran capacidad de liderazgo", "Habilidad para trabajar bajo presión", "Excelente comunicación"],
+        "formacion_academica": ["Ingeniería en Sistemas", "Maestría en Dirección de Proyectos", "Diplomado en Desarrollo Móvil"],
+        "skills": ["Swift", "Java", "Python", "SQL"]
+      },
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Avanzado", "Nativo"],
+        "certificaciones": ["TOEFL", "DELE"]
+      },
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Tiempo completo"
+      }
+    },
+    {
+      "Id_consultor": 8,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Lucía Hernández",
+      "telefono": "111-111-1111",
+      "cant_trabajos": 8,
+      "experiencia": {
+        "anos": 4,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones web", "Gestión de proyectos de software", "Análisis de datos financieros"],
+        "roles_y_responsabilidades": ["Desarrollo frontend y backend", "Gestión de tareas y plazos", "Análisis de rendimiento de aplicaciones"],
+        "recomendaciones": ["Gran capacidad de aprendizaje", "Siempre dispuesta a ayudar", "Profesional con visión de futuro"],
+        "formacion_academica": ["Ingeniería en Informática", "Curso en Gestión de Proyectos", "Diplomado en Desarrollo Web"],
+        "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+      },
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Intermedio", "Avanzado"],
+        "certificaciones": ["PET", "Diploma de Español"]
+      },
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Medio tiempo"
+      }
+    },
+    {
+      "Id_consultor": 9,
+      "id_empresa_consultora": 10,
+      "Area_de_interes": "Tecnologia",
+      "nombre_consultor": "Roberto Díaz",
+      "telefono": "222-222-2222",
+      "cant_trabajos": 6,
+      "experiencia": {
+        "anos": 3,
+        "proyectos_anteriores": ["Desarrollo de aplicaciones móviles", "Desarrollo de software empresarial", "Análisis de datos de marketing"],
+        "roles_y_responsabilidades": ["Programación móvil", "Diseño de arquitecturas escalables", "Análisis de tendencias de mercado"],
+        "recomendaciones": ["Gran capacidad de aprendizaje", "Gran atención al detalle", "Excelente comunicación"],
+        "formacion_academica": ["Ingeniería en Sistemas", "Diplomado en Marketing Digital", "Curso en Desarrollo Móvil"],
+        "skills": ["Swift", "Java", "Python", "SQL"]
+      },
+      "idioma": {
+        "tipo": ["Inglés", "Español"],
+        "nivel": ["Intermedio", "Avanzado"],
+        "certificaciones": ["TOEFL", "DELE"]
+      },
+      "horario": {
+        "Zona_horaria": "GMT-5",
+        "Disponibilidad": "Tiempo completo"
+      }
     }
-    ]
+  ]
 }
-  
-  

@@ -1,3 +1,6 @@
+// funciones 
+const obtenerValoresDecimales = require('./funciones_strings');
+
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Access your API key as an environment variable (see "Set up your API key" above)
@@ -7,7 +10,7 @@ async function run_nivel_industria(descripcion_industria) {
   // For text-only input, use the gemini-pro model
   const model = genAI.getGenerativeModel({ model: "gemini-pro"});
 
-  const prompt = "Proporciona únicamente los coeficientes en orden (x,y,z,w) que representan el nivel de importancia para cada"  + 
+  const prompt = "Proporciona únicamente los coeficientes en formato (x; y; z; w) que representan el nivel de importancia para cada"  + 
    "uno de los siguientes factores en la contratación para el proyecto descrito" + 
    "x = Años en la industria " + 
    "y = Nivel de satisfacción " + 
@@ -20,10 +23,8 @@ async function run_nivel_industria(descripcion_industria) {
   const result = await model.generateContent(prompt);
   const response = await result.response;
   const nivelIndustria = await response.text();
-  console.log(nivelIndustria);
-
-
-  return nivelIndustria;
+  const lstNivelIndustria = obtenerValoresDecimales(nivelIndustria);
+  return lstNivelIndustria;
 
 }
 
@@ -31,7 +32,7 @@ async function run_nivel_idioma(descripcion_industria) {
     // For text-only input, use the gemini-pro model
     const model = genAI.getGenerativeModel({ model: "gemini-pro"});
   
-    const prompt = "Proporciona únicamente los coeficientes en orden (x,y,z) que representan el nivel de importancia para cada"  + 
+    const prompt = "Proporciona únicamente los coeficientes en formato (x; y; z) que representan el nivel de importancia para cada"  + 
      "uno de los siguientes factores en la contratación para el proyecto descrito" + 
      "x = Fluidez " + 
      "y = Experiencia práctica en la industria " + 
@@ -43,15 +44,15 @@ async function run_nivel_idioma(descripcion_industria) {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const nivelIdioma = await response.text();
-    console.log(nivelIdioma);
-    return nivelIdioma;
+    const lstNivelIdioma = obtenerValoresDecimales(nivelIdioma);
+    return lstNivelIdioma;
   }
 
   async function run_nivel_disponibilidad(descripcion_industria) {
     // For text-only input, use the gemini-pro model
     const model = genAI.getGenerativeModel({ model: "gemini-pro"});
   
-    const prompt = "Proporciona únicamente los coeficientes en orden (x,y) que representan el nivel de importancia para cada"  + 
+    const prompt = "Proporciona únicamente los coeficientes en formato (x; y) que representan el nivel de importancia para cada"  + 
      "uno de los siguientes factores en la contratación para el proyecto descrito" + 
      "x = Zona Horaria " + 
      "y = Horario disponible de trabajo " + 
@@ -62,21 +63,10 @@ async function run_nivel_idioma(descripcion_industria) {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const nivelDisponibilidad = await response.text();
-    console.log(nivelDisponibilidad);
-    return nivelDisponibilidad;
+    const lstNivelDisponibilidad = obtenerValoresDecimales(nivelDisponibilidad);
+    return lstNivelDisponibilidad;
   }
 
-
-const descripcion_industria = "Descripción del Proyecto: Desarrollo de Plataforma de Logística para Optimización de Rutas" +
-"\n\nAlcances: Crear una plataforma web y móvil que permita a las empresas de logística optimizar sus rutas de entrega, reduciendo costos y tiempos de entrega." +
-"\n\nObjetivos: Implementar algoritmos de optimización de rutas, integrar sistemas de seguimiento de vehículos en tiempo real, y desarrollar una interfaz intuitiva para usuarios finales y administradores." +
-"\n\nDuración Estimada: 6 meses" +
-"\n\nPresupuesto: $200,000" +
-"\n\nRequisitos del Proyecto: Experiencia en desarrollo de aplicaciones web y móviles, conocimientos en algoritmos de optimización, familiaridad con sistemas de seguimiento GPS." +
-"\n\nPerfil de Equipo Ideal: Desarrolladores Full-stack con experiencia en logística y sistemas de seguimiento." +
-"\n\nInformación del Cliente: Industria de Logística, Ubicación: Ciudad de México, México."
-
-
-console.log(run_nivel_industria(descripcion_industria));
-console.log(run_nivel_idioma(descripcion_industria));
-console.log(run_nivel_disponibilidad(descripcion_industria));
+module.exports = run_nivel_industria;
+module.exports = run_nivel_idioma;
+module.exports = run_nivel_disponibilidad;
